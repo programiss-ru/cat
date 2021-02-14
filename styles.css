@@ -1,0 +1,71 @@
+.container{
+	width: 800px;
+	margin: 30px auto;
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.38;
+	border: 1px solid;
+	padding: 80px 40px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(149,216,96,1) 0%, rgba(149,216,101,1) 32%, rgba(255,255,255,1) 32%, rgba(255,255,255,1) 100%);
+    position: relative;
+}
+
+.container:after{
+	content: '';
+	display: inline-block;
+	background: url("images/feet.png");
+	width: 125px;
+	height: 140px;
+	background-size: 125px 140px;
+	position: absolute;
+	bottom: 50px;
+    right: 25px;
+}
+
+.container b{
+	font-weight: 900;
+}
+
+.cat{
+	width: 354px;
+	height: 473px;
+	border: 7px solid #fff;
+    box-sizing: border-box;
+}
+
+.info{
+	margin: 16px 0 0 34px;
+}
+
+.main{
+    margin: 0 0 60px;
+}
+
+.subtitle{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.benefits{
+	list-style: none;
+}
+
+.benefits li{
+    padding: 0 0 3px 30px;
+    position: relative;
+}
+
+.benefits li:before{
+	content: '';
+	display: inline-block;
+	background: url("images/check.png");
+	width: 16px;
+    height: 16px;
+    background-size: 16px 16px;
+    position: absolute;
+    top: 8px;
+    left: 4px;
+}
